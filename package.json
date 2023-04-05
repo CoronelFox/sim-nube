@@ -1,0 +1,30 @@
+{
+  "name": "sim-nube",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./app.js",
+    "dev": "nodemon ./app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CoronelFox/sim-nube.git"
+  },
+  "author": "luis carlos fox",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CoronelFox/sim-nube/issues"
+  },
+  "homepage": "https://github.com/CoronelFox/sim-nube#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql2": "^3.2.0",
+    "nodemon": "^2.0.22",
+    "pg": "^8.10.0",
+    "sequelize": "^6.30.0"
+  }
+}
